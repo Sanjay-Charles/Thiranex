@@ -15,7 +15,7 @@ from sklearn.pipeline import Pipeline, FeatureUnion
 # Load Dataset
 ############################################################
 
-df = pd.read_csv("emails.csv")
+df = pd.read_csv("emails.zip")
 
 # Replace missing values
 df["subject"] = df["subject"].fillna("")
